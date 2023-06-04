@@ -1,0 +1,16 @@
+<mvc:View controllerName="com.naveen.zjson1.controller.App"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m" xmlns:core="sap.ui.core">
+    <App id="app">
+    <Page id="page" title="{i18n>title}">
+        <content>
+
+        <core:Fragment id="empfragment" 
+        fragmentName ="com.naveen.zjson1.view.fragments.EmpDetails" type="XML"
+        />
+
+        
+        </content>
+    </Page>
+    </App>
+</mvc:View>

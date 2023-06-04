@@ -1,0 +1,21 @@
+<core:FragmentDefinition xmlns:core ="sap.ui.core" xmlns="sap.m">
+
+<VBox id="vBox1"  binding="{oEmpDetails>/empDetails}" class="sapUiSmallMargin">
+
+        <Title text="Employee Details" id="empDetails" level="H1"/>
+
+        <HBox id="hBox1">
+            <Label id="lblempnum" text="Employee Name:" class="sapUiSmallMarginEnd"/>
+            <Text id="idEmpNum" text="{oEmpDetails>Name}"/>
+        </HBox>
+
+        <HBox id="hBox2">
+            <Label id="lblName" text="EMployee Number:" class="sapUiSmallMarginEnd"/>
+            <Text id="idEmpName" text="{oEmpDetails>Number}"/>
+        </HBox>
+
+
+    </VBox>
+
+</core:FragmentDefinition>
+
